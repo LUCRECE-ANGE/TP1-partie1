@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Premiere_page.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -12,7 +12,7 @@
         }
 
         header {
-            background-color: #003366; /* Couleur de fond de la navbar */
+            background-color: blue; /* Couleur de fond de la navbar */
             color: white;
             padding: 10px 0;
         }
@@ -23,6 +23,7 @@
             align-items: center;
             flex-wrap: wrap;
             padding: 0 20px;
+            height: 30px;
         }
 
         .nav-content a {
@@ -109,7 +110,18 @@
             width: 100%;
         }
         
-        
+        .link-list {
+            padding: 0;
+            margin: 0;
+            list-style-type: none; /* Retire le style de liste */
+        }
+
+        .link-list a {
+            display: block; /* Pour un meilleur espacement */
+            margin: 5px 0; /* Ajout de marges entre les liens */
+            color: white; /* Couleur des liens */
+            text-decoration: none; /* Suppression de la décoration de texte */
+        }
     </style>
     <title>Document</title>
 </head>
@@ -170,7 +182,7 @@
                     <input type="checkbox" id="checkbox">
                     <label for="checkbox">se souvenir de moi</label>
                 </div>
-                <button><a href="formulaire_connexion.html">SE CONNECTER</a></button>
+                <button><a href="Test.html">SE CONNECTER</a></button>
                 <div>
                     <a href="formulaire_inscription.html"> inscrire</a>
                     <a href="#">mot de passe oublié?</a>
@@ -197,8 +209,8 @@
                     <a href="#">PARAMETRES DE COMPTE</a>
                 </div>
                 <div class="cadre3">
-                    <span><a href="#" id="li"><i class="fas fa-sign-in-alt"></i> SE CONNECTER</a></span>
-                    <span><a href="#" id="li"><i class="fas fa-user-plus"></i> S'INSCRIRE</a></span>
+                    <span><a href="Test.html" id="li"><i class="fas fa-sign-in-alt"></i> SE CONNECTER</a></span>
+                    <span><a href="formulaire_inscription.html" id="li"><i class="fas fa-user-plus"></i> S'INSCRIRE</a></span>
                     <span><a href="#" id="li"><i class="fas fa-lock"></i> MOT DE PASSE</a></span>
                 </div>
             </div>
