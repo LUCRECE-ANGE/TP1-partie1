@@ -7,10 +7,10 @@ nav{
     color: aliceblue;
     display: flex;
     justify-content: space-between;
-    display: flex;
     gap: 3px;
     justify-content: center;
     align-items: center;
+    position: relative;
     
 }
 nav a{
@@ -233,3 +233,11 @@ li{
     background-color: aliceblue;
 }
 
+@media (max-width:1000px){
+    body{
+        font-size: 5px;
+    }
+    nav{
+        display: block;
+    }
+}
