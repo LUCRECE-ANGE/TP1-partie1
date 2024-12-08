@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon test</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="dropdown">
+            <a href="#home">Accueil</a>
+            <div class="dropdown-content">
+                <a href="#sub1">Sous-option 1</a>
+                <a href="#sub2">Sous-option 2</a>
+                <a href="#sub3">Sous-option 3</a>
+                <a href="#sub4">Sous-option 4</a>
+                <a href="#sub5">Sous-option 5</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#services">Services</a>
+            <div class="dropdown-content">
+                <a href="#service1">Service 1</a>
+                <a href="#service2">Service 2</a>
+                <a href="#service3">Service 3</a>
+                <a href="#service4">Service 4</a>
+                <a href="#service5">Service 5</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#about">À Propos</a>
+            <div class="dropdown-content">
+                <a href="#team">Notre Équipe</a>
+                <a href="#mission">Notre Mission</a>
+                <a href="#vision">Notre Vision</a>
+                <a href="#history">Notre Histoire</a>
+                <a href="#values">Nos Valeurs</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#contact">Contact</a>
+            <div class="dropdown-content">
+                <a href="#email">Email</a>
+                <a href="#phone">Téléphone</a>
+                <a href="#location">Localisation</a>
+                <a href="#support">Support</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="signup-form">
+        <font size="6">Sign-up</font>
+        <p>Welcome</p><br>
+        <form action="/submit" method="post">
+            <label for="Email" class="Email">Email</label>
+            <input type="email" id="Email" required>
+            <label for="Password" class="Password">Password</label>
+            <input type="password" id="Password" required>
+            <label for="Confirm_Password" class="Confirm_Password">Confirm Password</label>
+            <input type="password" id="Confirm_Password" required>
+            <button type="submit">Créer</button>
+        </form>
+        <br><nav>J'ai déjà un compte, <a href="./../index.html">se connecter</a></nav>
+    </div> 
+</body>
+</html>

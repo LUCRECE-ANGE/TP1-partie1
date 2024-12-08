@@ -1,4 +1,4 @@
-.formulaire{
+/* .formulaire{
     margin: 100px;
     align-items: center;
     justify-items: center;
@@ -32,4 +32,107 @@ button a{
 }
 button:hover{
     translate: (20px,20px);
+} */ 
+ 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #003366; /* Couleur de fond de la navbar */
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.nav-content a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.icones i {
+    margin: 0 10px;
+    color: white;
+}
+
+.formulaire {
+    margin: 20px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid blue;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.formulaire input {
+    display: block;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: 10px auto 20px;
+    width: 90%;
+    max-width: 200px;
+}
+
+.checkbox {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.header2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.dropdown {
+    margin: 10px;
+}
+
+.cadre-milieu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.colonne1, .colonne2, .colonne3, .colonne4 {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #003366; /* Couleur de fond du footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

@@ -1,12 +1,11 @@
-.formulaire{
-    display: flex;
-    padding: 0px;
-    margin: 60px 80px 60px 80px;
-    border: 1px solid white;
-    height: 500px;
-    width: 900px;
-    border-radius: 2px;
-   
+.formulaire {
+    margin: 20px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid blue;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
 }
 .cadre ,.form{
     height: 500px;
